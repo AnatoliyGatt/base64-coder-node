@@ -16,7 +16,7 @@ Base64 string encoder/decoder.
 ## Usage Example
 
 ```javascript
-var base64 = require("base64-coder")();
+var base64 = require("base64-coder-node")();
 
 console.log(base64.encode("Base64 string encoder/decoder."));
 console.log(base64.decode("QmFzZTY0IHN0cmluZyBlbmNvZGVyL2RlY29kZXIu"));
