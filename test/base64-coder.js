@@ -27,11 +27,15 @@ describe("base64-coder", function() {
     describe("functions", function() {
         describe("#encode()", function() {
             it("should encode string to Base64", function() {
-                assert.equal(base64.encode("Base64 string encoder/decoder."), "QmFzZTY0IHN0cmluZyBlbmNvZGVyL2RlY29kZXIu", "string should be encoded to Base64");
+                var base64EncodedString = base64.encode("Base64 string encoder/decoder.");
+                var expectedBase64EncodedString = "QmFzZTY0IHN0cmluZyBlbmNvZGVyL2RlY29kZXIu";
+                assert.equal(base64EncodedString, expectedBase64EncodedString, "string should be encoded to Base64");
             });
 
             it("should encode string to Base64 with non-utf8 encoding", function() {
-                assert.equal(base64.encode("Base64 string encoder/decoder.", "utf16le"), "QgBhAHMAZQA2ADQAIABzAHQAcgBpAG4AZwAgAGUAbgBjAG8AZABlAHIALwBkAGUAYwBvAGQAZQByAC4A", "non-utf8 string should be encoded to Base64");
+                var base64EncodedString = base64.encode("Base64 string encoder/decoder.", "utf16le");
+                var expectedBase64EncodedString = "QgBhAHMAZQA2ADQAIABzAHQAcgBpAG4AZwAgAGUAbgBjAG8AZABlAHIALwBkAGUAYwBvAGQAZQByAC4A";
+                assert.equal(base64EncodedString, expectedBase64EncodedString, "non-utf8 string should be encoded to Base64");
             });
 
             it("should fail when called with invalid encoding", function() {
@@ -53,11 +57,15 @@ describe("base64-coder", function() {
 
         describe("#decode()", function() {
             it("should decode string from Base64", function() {
-                assert.equal(base64.decode("QmFzZTY0IHN0cmluZyBlbmNvZGVyL2RlY29kZXIu"), "Base64 string encoder/decoder.", "string should be decoded from Base64");
+                var base64DecodedString = base64.decode("QmFzZTY0IHN0cmluZyBlbmNvZGVyL2RlY29kZXIu");
+                var expectedBase64DecodedString = "Base64 string encoder/decoder.";
+                assert.equal(base64DecodedString, expectedBase64DecodedString, "string should be decoded from Base64");
             });
 
             it("should decode string from Base64 with non-utf8 encoding", function() {
-                assert.equal(base64.decode("QgBhAHMAZQA2ADQAIABzAHQAcgBpAG4AZwAgAGUAbgBjAG8AZABlAHIALwBkAGUAYwBvAGQAZQByAC4A", "utf16le"), "Base64 string encoder/decoder.", "non-utf8 string should be decoded from Base64");
+                var base64DecodedString = base64.decode("QgBhAHMAZQA2ADQAIABzAHQAcgBpAG4AZwAgAGUAbgBjAG8AZABlAHIALwBkAGUAYwBvAGQAZQByAC4A", "utf16le");
+                var expectedBase64DecodedString = "Base64 string encoder/decoder.";
+                assert.equal(base64DecodedString, expectedBase64DecodedString, "non-utf8 string should be decoded from Base64");
             });
 
             it("should fail when called with invalid encoding", function() {
