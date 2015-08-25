@@ -66,6 +66,9 @@ Distributed under the [MIT License](LICENSE).
 
 [npm-package-downloads-badge]: https://img.shields.io/npm/dm/base64-coder-node.svg?style=flat-square
 
+[devDependencies-status-badge]: https://david-dm.org/AnatoliyGatt/base64-coder-node/dev-status.svg?style=flat-square
+[devDependencies-status-page-url]: https://david-dm.org/AnatoliyGatt/base64-coder-node#info=devDependencies
+
 [travis-ci-build-status-badge]: https://img.shields.io/travis/AnatoliyGatt/base64-coder-node.svg?style=flat-square
 [travis-ci-build-status-page-url]: https://travis-ci.org/AnatoliyGatt/base64-coder-node
 
