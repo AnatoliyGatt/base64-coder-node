@@ -1,4 +1,4 @@
-# base64-coder for Node.js
+![base64-coder-node Logo][logo]
 
 Base64 string encoder/decoder.
 
@@ -63,6 +63,8 @@ $ npm test
 ## License
 
 Distributed under the [MIT License](LICENSE).
+
+[logo]: https://cldup.com/fnGZ5shIwz.png
 
 [npm-package-url]: https://npmjs.org/package/base64-coder-node
 
