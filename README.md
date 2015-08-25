@@ -78,4 +78,7 @@ Distributed under the [MIT License](LICENSE).
 [travis-ci-build-status-badge]: https://img.shields.io/travis/AnatoliyGatt/base64-coder-node.svg?style=flat-square
 [travis-ci-build-status-page-url]: https://travis-ci.org/AnatoliyGatt/base64-coder-node
 
+[code-climate-status-badge]: https://img.shields.io/codeclimate/github/AnatoliyGatt/base64-coder-node.svg?style=flat-square
+[code-climate-status-page-url]: https://codeclimate.com/github/AnatoliyGatt/base64-coder-node
+
 [npm-package-statistics-badge]: https://nodei.co/npm/base64-coder-node.png?downloads=true&downloadRank=true&stars=true
