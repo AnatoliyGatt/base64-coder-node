@@ -8,6 +8,7 @@ Base64 string encoder/decoder.
 [![Dependencies Status][dependencies-status-badge]][dependencies-status-page-url]
 [![devDependencies Status][devDependencies-status-badge]][devDependencies-status-page-url]
 
+[![Node Version][node-version-badge]][node-downloads-page-url]
 [![Travis CI Build Status][travis-ci-build-status-badge]][travis-ci-build-status-page-url]
 [![Code Climate Status][code-climate-status-badge]][code-climate-status-page-url]
 
