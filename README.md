@@ -2,12 +2,12 @@
 
 Base64 string encoder/decoder.
 
-[![NPM Version][npm-image]][npm-url]
-[![NPM Downloads][downloads-image]][downloads-url]
-[![License][license]][license-url]
-[![Travis Build][travis-image]][travis-url]
+[![NPM Package Version][npm-package-version-badge]][npm-package-url]
+[![NPM Package License][npm-package-license-badge]][npm-package-license-url]
+[![NPM Package Downloads][npm-package-downloads-badge]][npm-package-url]
+[![Travis CI Build Status][travis-ci-build-status-badge]][travis-ci-build-status-page-url]
 
-[![NPM Statistics][npm-statistics-image]][npm-url]
+[![NPM Package Statistics][npm-package-statistics-badge]][npm-package-url]
 
 ## Installation
 
@@ -57,12 +57,16 @@ $ npm test
 
 Distributed under the [MIT License](LICENSE).
 
-[npm-image]: https://img.shields.io/npm/v/base64-coder-node.svg
-[npm-url]: https://npmjs.org/package/base64-coder-node
-[downloads-image]: https://img.shields.io/npm/dm/base64-coder-node.svg
-[downloads-url]: https://npmjs.org/package/base64-coder-node
-[license]: https://img.shields.io/npm/l/base64-coder-node.svg
-[license-url]: https://github.com/AnatoliyGatt/base64-coder-node/blob/master/LICENSE
-[travis-image]: https://img.shields.io/travis/AnatoliyGatt/base64-coder-node/master.svg
-[travis-url]: https://travis-ci.org/AnatoliyGatt/base64-coder-node
-[npm-statistics-image]: https://nodei.co/npm/base64-coder-node.png?downloads=true&downloadRank=true&stars=true
+[npm-package-url]: https://npmjs.org/package/base64-coder-node
+
+[npm-package-version-badge]: https://img.shields.io/npm/v/base64-coder-node.svg
+
+[npm-package-license-badge]: https://img.shields.io/npm/l/base64-coder-node.svg
+[npm-package-license-url]: http://opensource.org/licenses/MIT
+
+[npm-package-downloads-badge]: https://img.shields.io/npm/dm/base64-coder-node.svg
+
+[travis-ci-build-status-badge]: https://img.shields.io/travis/AnatoliyGatt/base64-coder-node.svg
+[travis-ci-build-status-page-url]: https://travis-ci.org/AnatoliyGatt/base64-coder-node
+
+[npm-package-statistics-badge]: https://nodei.co/npm/base64-coder-node.png?downloads=true&downloadRank=true&stars=true
