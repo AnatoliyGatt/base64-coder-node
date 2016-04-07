@@ -16,3 +16,4 @@
  */
 
 module.exports = require('./lib/base64-coder');
+
