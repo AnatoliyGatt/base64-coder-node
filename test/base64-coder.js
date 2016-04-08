@@ -35,16 +35,6 @@ describe('base64-coder', function () {
                     base64.encode('Base64 string encoder/decoder.', 'utf16');
                 }, Error);
             });
-
-            it('should not be overridden', function () {
-                base64.encode = function () {
-                    return '#encode()';
-                };
-
-                assert.throws(function () {
-                    assert.notEqual(base64.encode(), '#encode()', '#encode() should not be overridden');
-                }, Error);
-            });
         });
 
         describe('#decode()', function () {
