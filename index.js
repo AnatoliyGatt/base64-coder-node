@@ -11,8 +11,8 @@
 
 /**
  * @public
- * @description Expose function to initialize unchangeable instance of Base64Coder.
- * @returns {Function} - Function to initialize unchangeable instance of Base64Coder.
+ * @description Expose function to initialize instance of Base64Coder.
+ * @returns {Function} - Function to initialize instance of Base64Coder.
  */
 
 module.exports = require('./lib/base64-coder');
