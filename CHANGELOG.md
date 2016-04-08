@@ -1,3 +1,18 @@
+1.0.7 / 2016-04-08
+==================
+
+* Remove dependencies badge from README.md
+* Remove deep-freeze-node as dependency in package.json
+* Update index.js documentation comments
+* Update base64-coder.js tests
+* Remove require of deep-freeze-node in base64-coder.js
+* Update base64-coder.js documentation comments
+* Expose unfrozen instance of Base64Coder in base64-coder.js
+* Add newline at the end of all text files
+* Add .gitattributes
+* Update dev dependencies
+* Update dependencies
+
 1.0.6 / 2016-02-27
 ==================
 
