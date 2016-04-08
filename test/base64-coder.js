@@ -65,16 +65,6 @@ describe('base64-coder', function () {
                     base64.decode('QgBhAHMAZQA2ADQAIABzAHQAcgBpAG4AZwAgAGUAbgBjAG8AZABlAHIALwBkAGUAYwBvAGQAZQByAC4A', 'utf16');
                 }, Error);
             });
-
-            it('should not be overridden', function () {
-                base64.decode = function () {
-                    return '#decode()';
-                };
-
-                assert.throws(function () {
-                    assert.notEqual(base64.decode(), '#decode()', '#decode() should not be overridden');
-                }, Error);
-            });
         });
     });
 });
