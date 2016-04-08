@@ -14,14 +14,6 @@ describe('base64-coder', function () {
         it('should have correct default request options', function () {
             assert.deepEqual(base64.defaultOptions, defaultOptions, 'default options should have correct initial property values');
         });
-
-        it('should not override default options', function () {
-            base64.defaultOptions = {
-                encoding: 'ascii'
-            };
-
-            assert.deepEqual(base64.defaultOptions, defaultOptions, 'default options should not be overridden');
-        });
     });
 
     describe('functions', function () {
